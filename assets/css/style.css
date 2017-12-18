@@ -1,0 +1,45 @@
+body {
+  background: black;
+}
+
+#headerbar {
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 30px;
+  text-align: left;
+  color:black;
+}
+
+.dino-button {
+  margin: 10px;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: rgb(120, 222, 240)84, 125, 125);
+  font-family: 'Ceviche One', cursive;
+  font-size: 25px;
+  font-style: solid;
+
+  background: rgba(30, 22, 61, 0.438);
+  box-shadow:0px 0px 0 rgb(110, 12, 12) inset;
+} 
+
+.dino-button:hover{ 
+  color:rgb(167, 142, 214);
+  background:rgb(31, 6, 6);
+  box-shadow:-280px -90px 0px rgba(4, 8, 15, 0.295) inset;
+  text-shadow:1px 1px 0 rgb(30, 8, 36)
+}
+
+.add-dino {
+  margin: 10px;
+  max-width: 100em;
+}
+
+.pull-left {
+  margin: 10px;
+}
+
+#gifArea {
+  font-family: 'Eater', cursive;
+}
